@@ -1,0 +1,16 @@
+mat-grid-tile{
+    margin-top: 20px;
+}
+
+.imgProduct{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.textoImagen{
+    font-size: 15px;
+    color:#3F51B5;
+    margin-left: 20%;
+    margin-right: 20%;
+}

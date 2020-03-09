@@ -1,0 +1,12 @@
+<mat-grid-list cols="3" rowHeight="2:1.3">
+  <mat-grid-tile *ngFor="let nombre of nombres;index as i">
+  <a href="http://localhost:4200/home-page/products{{routes[i]}}">
+    <div>
+      <img class="imgProduct" src="{{imagenes[i]}}" a>
+    </div>
+    <div class=textoImagen>
+      <b>{{nombre}} </b>
+    </div>
+  </a>
+  </mat-grid-tile>
+</mat-grid-list>

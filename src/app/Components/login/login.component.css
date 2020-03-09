@@ -1,0 +1,36 @@
+mat-card {
+    margin: auto;
+    width: 400px;
+    display: block;
+}
+
+mat-form-field {
+    display: block;
+}
+
+button{
+    left: 200px;
+    width:100px;
+    margin-left: -50px;
+   
+}
+
+img{
+    width: 350px;
+    margin-left: calc(50% - 175px);
+}
+
+.message{
+    position: absolute;
+    width: 300px;
+    left:50%;
+    margin-left: -150px ;
+    font-family: Arial;
+    font-size: 12px;
+    color: #ff0000;
+    text-align: center;
+   
+  }
+  .empty{
+      color:#FFFFFF;
+  }

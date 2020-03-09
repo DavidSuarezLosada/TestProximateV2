@@ -1,0 +1,32 @@
+ 
+.matIconButton{
+  text-align: left;
+  width: 100%;
+  color:#000000;
+  font-family: Roboto;  
+  font-style: normal;    
+  font-size: 12px;
+} 
+
+.example-tree-invisible {
+    display: none;
+  }
+  
+.example-tree ul,
+.example-tree li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.iconMenu{
+  margin-right: 10px;
+}
+
+.example.spacer{
+  flex: 1 1 auto;
+}
+
+.mat-icon-rtl-mirror{
+ float: right;
+}

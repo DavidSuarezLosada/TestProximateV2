@@ -1,0 +1,60 @@
+.Titulo{
+    display: block;
+}
+
+.imgProduct{
+    width: 90%;
+    margin-left: 5%;
+}
+
+h1{
+    font-size: 150%;
+    color:#3F51B5;
+}
+
+h2{
+    font-size: 110%;
+}
+
+.TituloProducto{
+    margin-right: 5%;
+}
+
+.Titulo2{
+    margin-top: 2%;
+    background-color: #939DD9;
+}
+
+.DescriptionProduct{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.ImportantText{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 100%;
+}
+
+.finalText{
+    background-color: #242424;
+    color:#FFFFFF;
+}
+
+.tImportantT{
+    margin-top: 1%;
+    font-size: 120%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-style: bold;
+    color:#FFFFFF;
+}
+.productDetail{
+    margin: 2%;
+    margin-right: 2%;
+    font-size: 120%;
+    font-style: bold;
+    color:#FFFFFF;
+}

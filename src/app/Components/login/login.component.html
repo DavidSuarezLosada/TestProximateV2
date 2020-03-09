@@ -1,0 +1,17 @@
+
+
+<img src="https://www.colmenaseguros.com/paginas/landing/cuentanos-tu-idea-de-progreso/images/logo.png"
+   alt="ColmenaLogo">
+<main>
+   <mat-card>
+      <mat-form-field>
+         <input matInput #user (click)="cleanMessage()" type="text" placeholder="Usuario">
+      </mat-form-field>
+      <mat-form-field>
+         <input matInput #password (click)="cleanMessage()" type="password" placeholder="Contraseña">
+      </mat-form-field>
+      <button mat-flat-button color="primary" (click)="login(1,user.value,password.value)">Ingresar</button>
+      <p class = "message"> <b> {{message}} </b> </p> <br>   <p class = "empty">.</p>  
+   </mat-card>
+   
+</main>

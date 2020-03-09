@@ -1,0 +1,36 @@
+<div>
+    <div>
+        <mat-grid-list cols="2" rowHeight="2:1">
+            <mat-grid-tile> <img class="imgProduct" src="{{shareData.productShare.CardImgUrl}}" a> </mat-grid-tile>
+            <mat-grid-tile class="Titulo">
+                <div class="TituloProducto">
+                    <h1> <b>{{shareData.productShare.Name}}</b></h1>
+                    <h2> {{shareData.productShare.Subtitle}}
+                    </h2> {{shareData.productShare.AgeDescription}}
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+    <div>
+        <mat-card class="Titulo2"><p class = "productDetail"> Detalle del producto </p></mat-card>
+        <div div class="DescriptionProduct" [innerHTML]="shareData.productShare.CoverText">
+            {{shareData.productShare.CoverText}}
+        </div>
+        <div div class="DescriptionProduct" [innerHTML]="shareData.productShare.Description">
+            {{shareData.productShare.Description}}
+        </div>
+        <div div class="DescriptionProduct" [innerHTML]="shareData.productShare.CoverageText">
+            {{shareData.productShare.CoverageText}}
+        </div>
+       
+            <mat-card class="finalText">
+            <div class="tImportantT"> A tener en cuenta... </div>
+            <div div class="ImportantText" [innerHTML]="shareData.productShare.WayToPay">
+                {{shareData.productShare.WayToPay}}
+            </div>
+            <div div class="ImportantText" [innerHTML]="shareData.productShare.ImportantText">
+                {{shareData.productShare.ImportantText}}
+            </div>
+        </mat-card>
+    </div>
+</div>
